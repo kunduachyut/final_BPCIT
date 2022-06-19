@@ -1,0 +1,8 @@
+shopmart\models\User.class
+shopmart\controllers\LoginServlet.class
+shopmart\dao\UserDao.class
+shopmart\controllers\ProductServlet.class
+shopmart\controllers\SignUpServlet.class
+shopmart\dao\ProductDao.class
+shopmart\models\Product.class
+shopmart\controllers\LogoutServlet.class

@@ -1,0 +1,53 @@
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-pro-image{
+width: 130%;
+padding: 2%;
+padding-right: 5%;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails.single-pro-details{
+    width: 50%;
+    padding: 30px;
+}
+
+#size{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#cart,#pay{
+    width: 140px;
+    height: 40px;
+    background-color:#088178;
+    color: #fff;
+    font-size:large;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#pay{
+    background-color: blue;
+}
+#cart:hover,#pay:hover{
+    color: black;
+}
+#input{
+    width: 40px;
+    height: 40px;
+}
+#price{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
